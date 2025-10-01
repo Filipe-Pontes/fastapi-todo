@@ -1,0 +1,8 @@
+# ambiente
+.venv
+
+#cache
+__pycache__
+
+#docker
+docker-compose.yml

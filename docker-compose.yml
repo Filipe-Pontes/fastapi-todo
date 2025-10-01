@@ -23,7 +23,7 @@ services:
     depends_on:
       - postgres
     volumes:
-      - .:/app
+      - ./app:/app
     command: >
       sh -c "ls -la && echo 'Arquivos no diretório:' && 
              find . -name '*.py' && 

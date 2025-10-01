@@ -17,4 +17,4 @@ RUN echo "=== Estrutura de arquivos ===" && \
 EXPOSE 8000
 
 # Comando mais robusto
-CMD ["sh", "-c", "ls -la && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
