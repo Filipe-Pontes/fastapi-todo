@@ -60,4 +60,4 @@ def delete_task(task_id: int):
         raise HTTPException(status_code=404, detail="Tarefa não encontrada")
     return {"message": f"Tarefa {task_id} deletada com sucesso"}
 
-print("primeiro teste CI 1")
+print("primeiro teste CI 2")
